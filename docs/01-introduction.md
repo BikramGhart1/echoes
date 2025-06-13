@@ -1,5 +1,4 @@
 # Echoes
-## Slogan
 *Where every voice echoes*
 
 ## Core concept
