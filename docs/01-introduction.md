@@ -6,9 +6,9 @@
 through interactions maintaing their custom identity.
 
 ## Purpose
-The purpose of Echoes is to provide an expressive social platform where users can publicly share their thoughts, ideas, and opinions in the form of short posts. The platform aims to promote open communication and engagement by allowing users to follow others, interact through comments, and discover content through personalized feeds. It is designed to balance simplicity and interactivity while prioritizing user experience, accessibility, and scalability.
+Previously I was developing a web application with similar idea but when I got back at it after board examination break it was overwhelming. This happened because of lack of proper prior planning. Therefore I am starting this project with the aim of proper planning and proper scalability as mentioned below.
 
-Previously I was developing a web application with similar idea but when I tried completeing it after board examination break it was overwhelming because of lack of proper prior planning before working on the development. Therefore I am developing this project this time with aim of proper planning and proper scalability as mentioned above to maintain consistency.
+The purpose of Echoes is to provide an expressive social platform where users can publicly share their thoughts, ideas, and opinions in the form of short posts. The platform aims to promote open communication and engagement by allowing users to follow others, interact through comments, and discover content through personalized feeds. It is designed to balance simplicity and interactivity while prioritizing user experience, accessibility, and scalability.
 
 ## Scope 
 The project will include the design and development of a web-based social media application that allows users to:
