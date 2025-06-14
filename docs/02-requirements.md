@@ -2,8 +2,9 @@
 
 ## 1. Functional Requirements
 Describes what services the system provides — features, behavior, and workflows.
+*Functional requirements are classified according to several modules given below*
 
-### 1.1. Account Management
+### 1.1. Account and Auth Management
 - Users can create an account using a unique username and password.
 - Users can log in and log out securely.
 - Users can reset their password via email.
