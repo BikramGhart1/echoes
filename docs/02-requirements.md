@@ -36,6 +36,9 @@ Describes what services the system provides — features, behavior, and workflow
 ### 1.6. Notifications (not now)
 - Users receive notifications when followed, or when someone likes/comments on their posts.
 
+### Representation of functional requirements in usecase diagram
+![usecasediagram](./diagrams/usecase%20Diagram.png)
+
 ## Future scability features
 - Repost System
 - Sub group communities for likeminded users
