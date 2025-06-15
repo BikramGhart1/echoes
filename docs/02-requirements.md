@@ -1,4 +1,10 @@
 # Requirements 
+I've decided to make system accessible in two roles:
+1. Admin role based
+2. User role based
+
+For now I'll be working on user role based,
+Admin role will be for future plan
 
 ## 1. Functional Requirements
 Describes what services the system provides — features, behavior, and workflows.
