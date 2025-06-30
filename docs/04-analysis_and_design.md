@@ -54,11 +54,17 @@ and how that token can be used to access protected routes.
 
 ### Screenshots of figma designed pages 
 
+#### Overview
+![overview](./diagrams/figma/Screenshot%202025-06-30%20213919.png)
+
+#### Logo 
+![logo](./diagrams/figma/final%20logo.png)
+
 1. Signup page 
 
-  ![signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
+   ![signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
 
-  ![signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
+   ![signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
 
 2. Login page
 
@@ -73,3 +79,34 @@ and how that token can be used to access protected routes.
    ![homepage-phone](./diagrams/figma/home%20page%20-%20phone.png)
 
    ![homepage-phone-sidebar](./diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
+
+4. Specific Post page
+
+   ![specific-post](./diagrams/figma/specific%20post%20page.png)
+
+5. create post page
+
+   ![create-post](./diagrams/figma/create%20post.png)
+
+6. Profile page
+
+   > Profile page with posts 
+   ![profile-page](./diagrams/figma/Screenshot%202025-06-30%20213558.png)     
+
+   > Profile page with comments
+   ![profile-page-comments](./diagrams/figma/profile%20page%20with%20comments%20(1).png)
+
+   > profile page with posts scrolled up
+   ![profile-page-posts-up](./diagrams/figma/profile%20page%20with%20posts.png)
+
+   > Profile posts
+   ![posts-in-profile](./diagrams/figma/posts%20user%20profile.png)
+
+   > Followee lists in profile
+   ![followee-lists](./diagrams/figma/user%20profile%20followee%20page.png)
+
+7. Edit Profile
+
+   ![edit-profile](./diagrams/figma/Edit%20profile.png)
+
+  
