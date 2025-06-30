@@ -39,6 +39,37 @@ and how that token can be used to access protected routes.
 
 ![sequence_diagram](./diagrams/UML/sequence%20diagram%20for%20auth.drawio%20(1).png)
 
-## UI/UX Design
+## 2. UI/UX Design
+* This design is not finalized concrete design, I intend to be more flexible and experiment with the
+* deisgns as suitable it can be during development phase
+
+- Principle - Mobile first approach
+- Color choices:
+  1. Primary : #F55600
+  2. Secondary : #9F9F9F
+  3. Background : #D9D9D9
+  4. Text : #FFFFFF / #000000
 
 [Link to the figma desing prototype](https://www.figma.com/proto/ybmCaUpTtiaLXOcoenOw4s/Untitled?node-id=25-15&p=f&t=onKqHWT5d7ywiHzK-0&scaling=scale-down&content-scaling=fixed&page-id=11%3A2)
+
+### Screenshots of figma designed pages 
+
+1. Signup page 
+
+  [!signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
+
+  [!signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
+
+2. Login page
+
+   [!loginpage](./diagrams/figma/login%20wireframe.png)
+
+   [!loginpage-phone](./diagrams/figma/login%20wireframe%20-%20phone.png)
+
+3. Home page
+   
+   [!hoempage](./diagrams/figma/homepage%20wireframe.png)
+
+   [!homepage-phone](./diagrams/figma/home%20page%20-%20phone.png)
+
+   [!homepage-phone-sidebar](./diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
