@@ -56,20 +56,20 @@ and how that token can be used to access protected routes.
 
 1. Signup page 
 
-  [!signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
+  ![signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
 
-  [!signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
+  ![signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
 
 2. Login page
 
-   [!loginpage](./diagrams/figma/login%20wireframe.png)
+   ![loginpage](./diagrams/figma/login%20wireframe.png)
 
-   [!loginpage-phone](./diagrams/figma/login%20wireframe%20-%20phone.png)
+   ![loginpage-phone](./diagrams/figma/login%20wireframe%20-%20phone.png)
 
 3. Home page
    
-   [!hoempage](./diagrams/figma/homepage%20wireframe.png)
+   ![hoempage](./diagrams/figma/homepage%20wireframe.png)
 
-   [!homepage-phone](./diagrams/figma/home%20page%20-%20phone.png)
+   ![homepage-phone](./diagrams/figma/home%20page%20-%20phone.png)
 
-   [!homepage-phone-sidebar](./diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
+   ![homepage-phone-sidebar](./diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
