@@ -1,8 +1,8 @@
 # Analysis and Design
 I've divided analysis and design phase into three sub phases:
   1. System analysis using UML diagrams
-  2. Layout and UI/UX design
-  3. Database Design 
+  2. UI/UX design
+  3. Database Schema Design 
 
 ## 1. System analysis using UML diagrams
 
@@ -38,3 +38,7 @@ The sequence diagram I designed decribes how login module work to provide authen
 and how that token can be used to access protected routes.
 
 ![sequence_diagram](./diagrams/UML/sequence%20diagram%20for%20auth.drawio%20(1).png)
+
+## UI/UX Design
+
+[Link to the figma desing prototype](https://www.figma.com/proto/ybmCaUpTtiaLXOcoenOw4s/Untitled?node-id=25-15&p=f&t=onKqHWT5d7ywiHzK-0&scaling=scale-down&content-scaling=fixed&page-id=11%3A2)
