@@ -1,6 +1,6 @@
 # Planning
-I've Planned to split the whole system into severals module according to their purposes 
-and work on them accordingly.
+Whole system is splited into several modules according to their purposes 
+and are planned to work on them accordingly.
 *Which were mentioned in requirements document too but its little bit different here*
 
 1. Authentication Module

@@ -1,5 +1,5 @@
 # Analysis and Design
-I've divided analysis and design phase into three sub phases:
+Analysis and design phase has been divided into three sub phases:
   1. System analysis using UML diagrams
   2. UI/UX design
   3. Database Schema Design 
@@ -7,7 +7,7 @@ I've divided analysis and design phase into three sub phases:
 ## 1. System analysis using UML diagrams
 
 ### Data Flow Diagram
-I've designed Data Flow Diagram level 0 and 1 describing how data will flow and different 
+Data Flow Diagram level 0 and 1 describe how data will flow and how different 
 processes will handle different modules.
 
  #### Context Diagram
@@ -18,7 +18,7 @@ processes will handle different modules.
  #### Level 0
  ![level_0](./diagrams/UML/dfd%20lvl%200%20revised.png)
 
- I've defined all the processes and entities here.
+ This diagram has defined all the processes and entities here.
 
  #### level 1
  ![level_1_1](./diagrams/UML/dfd%20lvl%201%20revised%201.png)
@@ -34,10 +34,12 @@ processes will handle different modules.
  This diagram describes the profile management module
 
 ### Sequence Diagram
-The sequence diagram I designed decribes how login module work to provide authentication token
-and how that token can be used to access protected routes.
+This sequence diagram decribes how login module works to provide authentication token
+and how token can be used to access protected routes.
 
 ![sequence_diagram](./diagrams/UML/sequence%20diagram%20for%20auth.drawio%20(1).png)
+
+-------------------------------------------------------------------------------------------------------------------------
 
 ## 2. UI/UX Design
 * This design is not finalized concrete design, I intend to be more flexible and experiment with the
@@ -109,4 +111,37 @@ and how that token can be used to access protected routes.
 
    ![edit-profile](./diagrams/figma/Edit%20profile.png)
 
-  
+-------------------------------------------------------------------------------------------------------------------------
+
+## 3. Database Schema Design 
+### 3.1 Technology Stack
+    The project uses PostgreSQL as the primary relational database system due to its performance, strong ACID compliance, and extensive support for complex queries and data types.
+      
+### 3.2 Schema Overview
+    The database schema has been designed to support the core functionalities of the Echoes platform, including:
+
+   - User management and authentication
+   - Content posting (text, media)
+   - Social interactions (comments, likes, follows, saves)
+   - Profile features (editing, viewing, avatar URL storage)
+
+### 3.3 Entity Tables and Relationships
+Below is an overview of key tables with primary relationships:
+
+users
+
+posts
+
+comments
+
+follows
+
+likes
+
+saved_posts
+
+### 3.4 Notes
+All media files (avatars, post images) are stored in Supabase Storage, and only their public URLs are saved in the database.
+
+created_at, liked_at, saved_at, and followed_at columns are used for easy sorting and analytics.
+

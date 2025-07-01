@@ -1,10 +1,10 @@
 # Requirements 
-I've decided to make system accessible in two roles:
-1. Admin role based
-2. User role based
+System will be accessible as two roles:
+1. Admin role 
+2. User role
 
-For now I'll be working on user role based,
-Admin role will be for future plan
+For now application will be based upon user role,
+Admin role will be for future plan.
 
 ## 1. Functional Requirements
 Describes what services the system provides — features, behavior, and workflows.
@@ -51,7 +51,7 @@ Describes what services the system provides — features, behavior, and workflow
 - Users can mention and tag other users
 - Users can share the posts
 
----
+-----------------------------------------------------------------------------------------------------------
 
 ## 2. Non-Functional Requirements
 Specifies **quality attributes**
