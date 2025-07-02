@@ -128,27 +128,66 @@ and how token can be used to access protected routes.
 ### 3.3 Entity Tables and Relationships
 Below is an overview of key tables with primary relationships:
 
-users
+#### 3.3.1 users
 | Column Name   | Data Type        | Constraints & Description                        |
 | ------------- | ---------------- | ------------------------------------------------ |
 | id            | `VARCHAR` (UUID) | Primary key, generated using `v4 UUID`           |
 | username      | `VARCHAR(50)`    | Unique, used for user handle                     |
-| display_name | `VARCHAR(100)`   | Full name or display label                       |
-| email         | `VARCHAR(100)`   | Unique, used for authentication                  |
+| display_name  | `VARCHAR(100)`   | Full name or display label                       |
+| email         | `VARCHAR(100)`   | Unique                                           |
 | password      | `TEXT`           | Hashed password                                  |
-| avatar_url   | `TEXT`           | Public image URL (stored in Supabase or similar) |
-| bio           | `TEXT`           | User’s biography or about section                |
-| created_at   | `TIMESTAMP`      | Default to `now()`, account creation timestamp   |
+| avatar_url    | `TEXT`           | Profile picture image URL (stored in Supabase)   |
+| bio           | `TEXT`           | User’s biography                                 |
+| created_at    | `TIMESTAMP`      | Default to `now()`, account creation timestamp   |
 
-posts 
+#### 3.3.2 posts 
+| Column Name   | Data Type        | Constraints & Description                        |
+| ------------- | ---------------- | ------------------------------------------------ |
+| id            | `VARCHAR` (UUID) | Primary key, generated using `v4 UUID`           |
+| title         | `VARCHAR(150)`    | Post title                                      |
+| content       | `TEXT`           | post content                                     |
+| media_url     | `TEXT`           | image URL (stored in Supabase)                   |
+| created_at    | `TIMESTAMP`      | Default to `now()`, post creation timestamp      |
+| user_id       | `VARCHAR`        | Foreign key referencing users(id)                |
 
-comments
 
-follows
+#### 3.3.3 comments
+| Column Name | Data Type        | Constraints & Description                                   |
+| ----------- | ---------------- | ----------------------------------------------------------- |
+| id          | `VARCHAR` (UUID) | Primary key, generated using `v4 UUID`                      |
+| content     | `TEXT`           | Comment content                                             |
+| post_id     | `VARCHAR`        | Foreign key referencing posts(id)                           |
+| user_id     | `VARCHAR`        | Foreign key referencing users(id)                           |
+| parent_id   | `VARCHAR`        | Nullable, self-referencing foreign key to comments(id)      |
+| created_at  | `TIMESTAMP`      | Default to `now()`, comment creation timestamp              |
 
-likes
+* Note: 
+  - parent_id enables nested comment replies by referencing another comment.
+  - All foreign keys are ON DELETE CASCADE to ensure referential integrity.
 
-saved_posts
+#### 3.3.4 follows
+| Column Name | Data Type        | Constraints & Description                                   |
+| ----------- | ---------------- | ----------------------------------------------------------- |
+| follower_id | `VARCHAR`        | Foreign key referencing users(id)                           |
+| following_id| `VARCHAR`        | Foreign key referencing users(id)                           |
+| followed_at | `TIMESTAMP`      | Default to `now()`, follow timestamp                        |
+| PRIMARY     | composite        | Composite of (follower_id,following_id)                     |
+
+#### 3.3.5 likes
+| Column Name | Data Type        | Constraints & Description                                   |
+| ----------- | ---------------- | ----------------------------------------------------------- |
+| user_id     | `VARCHAR`        | Foreign key referencing users(id)                           |
+| post_id     | `VARCHAR`        | Foreign key referencing posts(id)                           |
+| liked_at    | `TIMESTAMP`      | Default to `now()`, liked timestamp,for sorting             |
+| PRIMARY     | composite        | Composite of (user_id,post_id)                              |
+
+#### 3.3.6 saved_posts
+| Column Name | Data Type        | Constraints & Description                                   |
+| ----------- | ---------------- | ----------------------------------------------------------- |
+| user_id     | `VARCHAR`        | Foreign key referencing users(id)                           |
+| post_id     | `VARCHAR`        | Foreign key referencing posts(id)                           |
+| saved_at    | `TIMESTAMP`      | Default to `now()`, saved timestamp                         |
+| PRIMARY     | composite        | Composite of (user_id,post_id)                              |
 
 ### 3.4 Notes
 All media files (avatars, post images) are stored in Supabase Storage, and only their public URLs are saved in the database.
