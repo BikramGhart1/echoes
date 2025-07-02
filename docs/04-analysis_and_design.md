@@ -131,14 +131,14 @@ Below is an overview of key tables with primary relationships:
 users
 | Column Name   | Data Type        | Constraints & Description                        |
 | ------------- | ---------------- | ------------------------------------------------ |
-| id            | VARCHAR (UUID) | Primary key, generated using v4 UUID           |
-| username      | VARCHAR(50)    | Unique, used for user handle                     |
-| display\_name | VARCHAR(100)   | Full name or display label                       |
-| email         | VARCHAR(100)   | Unique, used for authentication                  |
-| password      | TEXT           | Hashed password                                  |
-| avatar_url   | TEXT           | Public image URL (stored in Supabase or similar) |
-| bio           | TEXT           | User’s biography or about section                |
-| created_at   | TIMESTAMP      | Default to `now()`, account creation timestamp   |
+| id            | `VARCHAR` (UUID) | Primary key, generated using `v4 UUID`           |
+| username      | `VARCHAR(50)`    | Unique, used for user handle                     |
+| display_name | `VARCHAR(100)`   | Full name or display label                       |
+| email         | `VARCHAR(100)`   | Unique, used for authentication                  |
+| password      | `TEXT`           | Hashed password                                  |
+| avatar_url   | `TEXT`           | Public image URL (stored in Supabase or similar) |
+| bio           | `TEXT`           | User’s biography or about section                |
+| created_at   | `TIMESTAMP`      | Default to `now()`, account creation timestamp   |
 
 posts 
 
