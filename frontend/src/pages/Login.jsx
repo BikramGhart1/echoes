@@ -13,7 +13,7 @@ export default function Login() {
         <input type="text" name='username' placeholder='Username' autoComplete='off' className='signinInput'/>
         <input type="password" placeholder='Password' autoComplete='off' className='signinInput'/>
 
-        <input type="submit" className='signinSubmitButton' value="Login" />
+        <input type="submit" className='primaryButton mt-6' value="Login" />
         </fieldset>
         <div className='w-full flex flex-col items-center space-y-2'>
             <p>Don't have an Account?</p>

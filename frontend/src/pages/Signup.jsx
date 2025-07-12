@@ -15,7 +15,7 @@ export default function Signup() {
         <input type="password" placeholder='Password' autoComplete='off' className='signinInput'/>
         <input type="password" placeholder='Confirm password' className='signinInput'/>
 
-        <input type="submit" className='signinSubmitButton' value="Sign up" />
+        <input type="submit" className='primaryButton mt-6' value="Sign up" />
         </fieldset>
         <div className='w-full flex flex-col items-center space-y-2'>
             <p>Already have an Account?</p>
