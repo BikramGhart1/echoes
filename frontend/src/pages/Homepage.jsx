@@ -47,10 +47,10 @@ export default function Homepage() {
     ]
   return (
     <div className='relative h-screen bg-gray-200 text-sm flex flex-col items-center gap-y-4 overflow-y-scroll overflow-x-hidden [scrollbar-width:none] scroll-smooth '>
-      <div className='flex flex-row justify-around bg-gray-200/70 pt-6 pb-4 font-bold w-full sticky top-0'>
+      <div className='flex flex-row justify-around bg-gray-200/70 pt-6 pb-4 font-bold w-full sticky top-0 z-10'>
         <button className='absolute left-10 md:hidden'>=</button>
-        <button className=''>Discover</button>
-        <button className='opacity-55'>Following</button>
+        <button className='hover:opacity-75 cursor-pointer'>Discover</button>
+        <button className='opacity-55 hover:opacity-75 cursor-pointer'>Following</button>
       </div>
       <div className='flex flex-row justify-around items-center w-11/12'>
         <p>Feel like posting something?</p>
