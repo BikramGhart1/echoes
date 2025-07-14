@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function PostCard({data}) {
-    console.log('post card');
   return (
     <div className='text-sm bg-gray-300 p-4 flex flex-row justify-baseline gap-x-6 w-full rounded-2xl relative'>
            <div className='w-12 h-12 bg-gray-400/75 rounded-4xl'></div>

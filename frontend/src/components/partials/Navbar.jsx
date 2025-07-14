@@ -17,11 +17,13 @@ const SearchBar=()=>{
     )
 }
 
-export default function Navbar() {
+export default function Navbar({navbarIsOpen, toggleNavbar}) {
+  navbarIsOpen?console.log('open'):console.log('closed');
   return (
     <>
-      <div className='bg-black opacity-80 fixed inset-0 md:hidden z-20'></div>
+      <div className={`bg-black opacity-80 fixed inset-0 md:hidden z-20`} onClick={toggleNavbar}></div>
       <nav className='bg-gray-200 w-2/3 md:w-auto fixed top-0 left-0 h-screen md:relative flex flex-col items-center z-30 overflow-y-auto [scrollbar-width:none] pb-4'>
+      <p className='absolute top-4 right-6 font-bold font-sans cursor-pointer md:hidden' onClick={toggleNavbar}>X</p>
       <div className='flex flex-col items-baseline w-11/12'>
         <div className='flex flex-row items-center w-full'>
             <h2 className='font-bold text-2xl'>Echoes</h2>
