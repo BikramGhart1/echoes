@@ -9,7 +9,7 @@ const SearchBar=()=>{
            {
                searchValue && <p>X</p>
             }
-            <div className='bg-gray-600 w-4 h-4 rounded-4xl relative z-10 cursor-pointer hover:shadow-md shadow-orange-500 '>
+            <div className='bg-gray-600 w-4 h-4 rounded-2xl relative z-10 cursor-pointer hover:shadow-md shadow-orange-500 '>
                <div className='bg-gray-800 w-4 h-1 absolute rotate-45 z-0 bottom-0 left-1.5 rounded-l-2xl'></div>
             </div>
             </div>

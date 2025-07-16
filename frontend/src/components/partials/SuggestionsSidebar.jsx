@@ -7,19 +7,19 @@ export default function SuggestionsSidebar() {
         <p className='font-semibold tracking-wide'>Suggested People</p>
         <div className='flex flex-row overflow-auto [scrollbar-width:none] scroll-smooth pl-2 justify-between items-center space-x-3 '>
             <div className='flex flex-col items-center'>
-                <div className='w-10 h-10 rounded-4xl bg-gray-300'></div>
+                <div className='w-10 h-10 rounded-2xl bg-gray-300'></div>
                 <p className='text-sm'>ram_yadav124</p>
             </div>
             <div className='flex flex-col items-center'>
-                <div className='w-10 h-10 rounded-4xl bg-gray-300'></div>
+                <div className='w-10 h-10 rounded-2xl bg-gray-300'></div>
                 <p className='text-sm'>ram_yadav124</p>
             </div>
             <div className='flex flex-col items-center'>
-                <div className='w-10 h-10 rounded-4xl bg-gray-300'></div>
+                <div className='w-10 h-10 rounded-2xl bg-gray-300'></div>
                 <p className='text-sm'>ram_yadav124</p>
             </div>
             <div className='flex flex-col items-center'>
-                <div className='w-10 h-10 rounded-4xl bg-gray-300'></div>
+                <div className='w-10 h-10 rounded-2xl bg-gray-300'></div>
                 <p className='text-sm'>ram_yadav124</p>
             </div>
             {/* <div className='flex flex-col items-center'>

@@ -1,13 +1,7 @@
-@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@theme{
-    --color-primary-color: #F55600;
-}
-
-@plugin "@tailwindcss/line-clamp";
 
 /* Sign in page styles */
 .signinInput{
@@ -27,6 +21,6 @@
 }
 
 .primaryButton{
-    @apply bg-primary-color text-white py-2 px-6 cursor-pointer rounded-2xl font-bold
+    @apply bg-primaryColor text-white py-2 px-6 cursor-pointer rounded-2xl font-bold
 }
 

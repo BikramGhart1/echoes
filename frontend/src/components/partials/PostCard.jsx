@@ -3,7 +3,7 @@ import React from 'react'
 export default function PostCard({data}) {
   return (
     <div className='text-sm bg-gray-300 p-4 flex flex-row justify-baseline gap-x-6 w-full rounded-2xl relative'>
-           <div className='w-12 h-12 bg-gray-400/75 rounded-4xl'></div>
+           <div className='w-12 h-12 bg-gray-400/75 rounded-3xl'></div>
             <div className='max-w-10/12 flex flex-col gap-y-3'>
               <div className='flex flex-row justify-baseline space-x-2.5'>
                 <p>{data.username}</p>

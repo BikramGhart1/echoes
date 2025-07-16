@@ -59,7 +59,7 @@ export default function Homepage({toggleNavbar}) {
       <div className='flex flex-row justify-around items-center w-11/12'>
         <p>Feel like posting something?</p>
         <div className='w-2/5 h-1 bg-gray-400 rounded-2xl'></div>
-        <button className='bg-primary-color font-bold text-white text-[12px] p-2 rounded-2xl'>Create post</button>
+        <button className='bg-primaryColor font-bold text-white text-[12px] p-2 rounded-2xl'>Create post</button>
       </div>
       <div className='w-[90%] flex flex-col gap-y-4 pb-4'>
         {

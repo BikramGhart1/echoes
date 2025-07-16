@@ -13,6 +13,7 @@ function App() {
       {/* <Login/> */}
       {/* <Navbar/> */}
       <HomePageLayout/>
+
     </>
   )
 }
