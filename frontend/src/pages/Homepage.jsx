@@ -1,5 +1,11 @@
 import React from 'react'
 import PostCard from '../components/partials/PostCard'
+import HamburgerMenu from '../components/partials/HamburgerMenu'
+
+export const HamburgerMenuu=()=>{
+
+  return <button className='absolute left-10 md:hidden cursor-pointer' onClick={()=>{toggleHandler()}}>=</button>
+}
 
 export default function Homepage({toggleNavbar}) {
   const posts=[
@@ -50,9 +56,9 @@ export default function Homepage({toggleNavbar}) {
   toggleNavbar();
  }
   return (
-    <div className='relative h-screen bg-gray-200 text-sm flex flex-col items-center gap-y-4 overflow-y-scroll overflow-x-hidden [scrollbar-width:none] scroll-smooth '>
+    <div className='homePageContainer'>
       <div className='flex flex-row justify-around bg-gray-200/70 pt-6 pb-4 font-bold w-full sticky top-0 z-10'>
-        <button className='absolute left-10 md:hidden cursor-pointer' onClick={()=>{toggleHandler()}}>=</button>
+        <HamburgerMenu/>
         <button className='hover:opacity-75 cursor-pointer'>Discover</button>
         <button className='opacity-55 hover:opacity-75 cursor-pointer'>Following</button>
       </div>

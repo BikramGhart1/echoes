@@ -24,3 +24,28 @@
     @apply bg-primaryColor text-white py-2 px-6 cursor-pointer rounded-2xl font-bold
 }
 
+/* Navbar */
+.navButton{
+    @apply flex flex-row justify-between items-center w-full hover:bg-gray-600 bg-gray-300 hover:text-white cursor-pointer transition-colors duration-200 px-3 py-3 rounded-lg
+}
+
+.navbarContainer{
+    @apply bg-gray-200 w-2/3 md:w-auto fixed top-0 left-0 h-screen md:relative flex flex-col items-center z-30 overflow-y-auto [scrollbar-width:none] pb-4
+}
+
+.navSection{
+    @apply w-11/12 mt-6 flex flex-col px-3
+}
+
+.navSectionHeader{
+    @apply pb-3 font-semibold opacity-85 tracking-wide
+}
+
+.navSectionContainer{
+    @apply flex flex-col gap-y-3 items-center text-sm
+}
+
+/* home page */
+.homePageContainer{
+    @apply relative h-screen bg-gray-200 text-sm flex flex-col items-center gap-y-4 overflow-y-scroll overflow-x-hidden [scrollbar-width:none] scroll-smooth
+}

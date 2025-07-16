@@ -4,6 +4,7 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Navbar from './components/partials/Navbar';
 import HomePageLayout from './layouts/HomePageLayout';
+import HamMenuProvider from './contexts/HamMenuContextProvider';
 
 function App() {
   console.log('hellow world');
@@ -12,7 +13,9 @@ function App() {
       {/* <Signup/> */}
       {/* <Login/> */}
       {/* <Navbar/> */}
-      <HomePageLayout/>
+      <HamMenuProvider>
+        <HomePageLayout/>
+      </HamMenuProvider>
 
     </>
   )
