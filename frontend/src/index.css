@@ -49,3 +49,8 @@
 .homePageContainer{
     @apply relative h-screen bg-gray-200 text-sm flex flex-col items-center gap-y-4 overflow-y-scroll overflow-x-hidden [scrollbar-width:none] scroll-smooth
 }
+
+/* View post page */
+.viewPostContainer{
+    @apply w-[95%] md:w-4/5 
+}

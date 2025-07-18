@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Navbar from '../components/partials/Navbar'
 import Homepage from '../pages/Homepage'
 import SuggestionsSidebar from '../components/partials/SuggestionsSidebar'
-import ViewPost from '../pages/ViewPost';
 import { useHamMenu } from '../contexts/HamMenuContextProvider';
 
 export default function HomePageLayout() {
@@ -14,9 +13,8 @@ export default function HomePageLayout() {
       <div className={`md:block ${navbarIsOpen?`block`:`hidden`}`}>
        <Navbar/>
       </div>
-       {/* <Homepage/> */}
-       {/* <SuggestionsSidebar/> */}
-       <ViewPost/>
+       <Homepage/>
+       <SuggestionsSidebar/>
     </div>
   )
 }

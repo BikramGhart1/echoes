@@ -13,7 +13,7 @@ export default function Homepage({toggleNavbar}) {
             post_id:1,
             title:"Just finished the sopranos season 4, shii was depressing",
             media_url:"/image 2.png",
-            content:"",
+            content:"whatever..........",
             likes:32,
             comments:4,
             isLiked:false,
@@ -23,7 +23,7 @@ export default function Homepage({toggleNavbar}) {
             post_id:2,
             title:"Not just once, not just twice",
             media_url:"/image 3.png",
-            content:"",
+            content:"hell yeahhh",
             likes:24,
             comments:2,
             isLiked:true,
@@ -57,7 +57,7 @@ export default function Homepage({toggleNavbar}) {
  }
   return (
     <div className='homePageContainer'>
-      <div className='flex flex-row justify-around bg-gray-200/70 pt-6 pb-4 font-bold w-full sticky top-0 z-10'>
+      <div className='flex flex-row justify-around items-center bg-gray-200/70 pt-6 pb-4 font-bold w-full sticky top-0 z-10'>
         <HamburgerMenu/>
         <button className='hover:opacity-75 cursor-pointer'>Discover</button>
         <button className='opacity-55 hover:opacity-75 cursor-pointer'>Following</button>

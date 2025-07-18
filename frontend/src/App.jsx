@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Navbar from './components/partials/Navbar';
 import HomePageLayout from './layouts/HomePageLayout';
 import HamMenuProvider from './contexts/HamMenuContextProvider';
+import SpecificPostLayout from './layouts/SpecificPostLayout';
 
 function App() {
   console.log('hellow world');
@@ -14,7 +15,8 @@ function App() {
       {/* <Login/> */}
       {/* <Navbar/> */}
       <HamMenuProvider>
-        <HomePageLayout/>
+        {/* <HomePageLayout/> */}
+        <SpecificPostLayout/>
       </HamMenuProvider>
 
     </>
