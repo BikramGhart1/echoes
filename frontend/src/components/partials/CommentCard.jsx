@@ -13,9 +13,9 @@ export default function CommentCard() {
                <p>Nephew I heard you saying I ain\'t tuff?🥀 </p>
             <div className='flex flex-row space-x-2 opacity-75'>
                 <p>0 likes</p>
-                <p>1 replies</p>
+                <p>reply</p>
             </div>
-            <p className='pt-2 opacity-75'>* View replies</p>
+            <p className='pt-2 opacity-75'>* View (1) replies</p>
            </div>
            <div className='absolute right-10 font-bold flex flex-row justify-start items-end space-x-4'>
                 <i className="far fa-heart cursor-pointer"></i>

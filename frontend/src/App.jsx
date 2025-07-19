@@ -6,6 +6,7 @@ import Navbar from './components/partials/Navbar';
 import HomePageLayout from './layouts/HomePageLayout';
 import HamMenuProvider from './contexts/HamMenuContextProvider';
 import SpecificPostLayout from './layouts/SpecificPostLayout';
+import ProfilePageLayout from './layouts/ProfilePageLayout';
 
 function App() {
   console.log('hellow world');
@@ -16,7 +17,8 @@ function App() {
       {/* <Navbar/> */}
       <HamMenuProvider>
         {/* <HomePageLayout/> */}
-        <SpecificPostLayout/>
+        {/* <SpecificPostLayout/> */}
+        <ProfilePageLayout/>
       </HamMenuProvider>
 
     </>

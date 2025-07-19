@@ -14,6 +14,7 @@ export default function PostCard({data}) {
                <img src={data.media_url} className='w-fit' alt="post content" />
                <p>{data.content}</p>
             </div>
+            <div className='flex flex-row justify-start space-x-4 items-start'>
             <div className='flex flex-row justify-baseline space-x-6'>
               <div>
                 {
@@ -32,6 +33,11 @@ export default function PostCard({data}) {
               <div>
                 <i className="far fa-bookmark "></i>
               </div>
+            </div>
+            {/* <div className={`transition-all duration-500 ease-in-out px-3 rounded-2xl w-full flex flex-row justify-between`}>
+                <input type="text" placeholder='write a comment...' className='placeholder:text-black bg-transparent w-11/12 border-none outline-none'/>
+                <input type="submit" value="Submit" className='font-semibold'/>
+         </div> */}
             </div>
            </div>
            <p className='absolute right-10 font-bold cursor-pointer text-lg'>...</p>

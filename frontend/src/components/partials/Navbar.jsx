@@ -47,7 +47,7 @@ export default function Navbar() {
               </button>
               <button className='navButton'>
                   <i className="fa-solid fa-bell relative p-1">
-                  <div className='absolute bg-red-600 w-2 h-2 rounded-2xl top-0 right-0'></div>
+                  <div className='absolute bg-red-400 w-2 h-2 rounded-2xl top-0 right-0'></div>
                   </i>
                   <p className=''>Notification</p>
               </button>
