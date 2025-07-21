@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/partials/Header'
 import Homepage from '../pages/Homepage'
 import PostCard from '../components/partials/PostCard'
 import UserPostsList from '../components/partials/UserPostsList'
+import CommentCard from '../components/partials/CommentCard'
 
 
 export default function Profilepage() {
+  const [isEditMode,setIsEditMode]=useState(false);
   return (
     <div className='mainContainer pb-6'>
       <Header/>
@@ -37,6 +39,8 @@ export default function Profilepage() {
         </div>
 
       </div>
+      {
+        !isEditMode &&
       <div className='flex flex-col items-center gap-y-10 rounded-xl w-11/12 bg-gray-300 pt-4 pb-8'>
           <div className='flex flex-row justify-around sticky top-16 md:top-20 rounded-2xl w-11/12 md:w-7/12 hover:bg-red-200 bg-red-100 items-center py-2 px-6'>
             <button className='border-b-4 border-solid border-orange-400 font-semibold'>Posts</button>
@@ -51,8 +55,15 @@ export default function Profilepage() {
             <UserPostsList/>
             <UserPostsList/>
             <UserPostsList/>
+            <CommentCard/>
+            <CommentCard/>
+            <CommentCard/>
+            <CommentCard/>
+            <CommentCard/>
           </div>
       </div>
+      
+      }
     </div>
   )
 }
