@@ -7,6 +7,7 @@ import HomePageLayout from './layouts/HomePageLayout';
 import HamMenuProvider from './contexts/HamMenuContextProvider';
 import SpecificPostLayout from './layouts/SpecificPostLayout';
 import ProfilePageLayout from './layouts/ProfilePageLayout';
+import CreatePostLayout from './layouts/CreatePostLayout';
 
 function App() {
   console.log('hellow world');
@@ -18,7 +19,8 @@ function App() {
       <HamMenuProvider>
         {/* <HomePageLayout/> */}
         {/* <SpecificPostLayout/> */}
-        <ProfilePageLayout/>
+        {/* <ProfilePageLayout/> */}
+        <CreatePostLayout/>
       </HamMenuProvider>
 
     </>

@@ -42,12 +42,12 @@ export default function Profilepage() {
       {
         !isEditMode &&
       <div className='flex flex-col items-center gap-y-10 rounded-xl w-11/12 bg-gray-300 pt-4 pb-8'>
-          <div className='flex flex-row justify-around sticky top-16 md:top-20 rounded-2xl w-11/12 md:w-7/12 hover:bg-red-200 bg-red-100 items-center py-2 px-6'>
+          <div className='flex flex-row justify-around z-10 sticky top-16 md:top-20 rounded-2xl w-11/12 md:w-7/12 hover:bg-red-200 bg-red-100 items-center py-2 px-6'>
             <button className='border-b-4 border-solid border-orange-400 font-semibold'>Posts</button>
             <button className=''>Saved</button>
             <button className=''>Comments</button>
           </div>
-          <div className='w-11/12 flex flex-col gap-y-4 rounded-lg bg-transparent'>
+          <div className='w-11/12 flex flex-col gap-y-4 rounded-lg'>
             <UserPostsList/>
             <UserPostsList/>
             <UserPostsList/>
@@ -55,11 +55,6 @@ export default function Profilepage() {
             <UserPostsList/>
             <UserPostsList/>
             <UserPostsList/>
-            <CommentCard/>
-            <CommentCard/>
-            <CommentCard/>
-            <CommentCard/>
-            <CommentCard/>
           </div>
       </div>
       

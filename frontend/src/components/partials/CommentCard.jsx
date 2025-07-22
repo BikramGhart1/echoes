@@ -3,7 +3,7 @@ import React from 'react'
 export default function CommentCard() {
   return (
     
-    <div className='text-sm bg-gray-0 p-4 flex flex-row justify-baseline gap-x-6 w-full rounded-2xl relative'>
+    <div className='text-sm bg-gray-0 p-4 flex flex-row justify-baseline gap-x-6 w-full rounded-2xl relative '>
            <div className='w-8 h-8 md:w-10 md:h-10 bg-gray-400/75 rounded-3xl flex-shrink-0'></div>
             <div className='max-w-10/12 flex flex-col gap-y-1'>
               <div className='flex flex-row justify-baseline space-x-2.5'>
