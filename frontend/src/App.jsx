@@ -19,8 +19,8 @@ function App() {
       <HamMenuProvider>
         {/* <HomePageLayout/> */}
         {/* <SpecificPostLayout/> */}
-        {/* <ProfilePageLayout/> */}
-        <CreatePostLayout/>
+        <ProfilePageLayout/>
+        {/* <CreatePostLayout/> */}
       </HamMenuProvider>
 
     </>
