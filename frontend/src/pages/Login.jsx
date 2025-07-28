@@ -1,12 +1,8 @@
 import React from 'react'
-import SigninLeftSection from '../components/sign_in/SigninLeftSection'
-import SigninRightSection from '../components/sign_in/SigninRightSection'
 
 export default function Login() {
+  console.log('login page');
   return (
-    <div className='signinContainer'>
-      <SigninLeftSection/>
- 
       <form className='signinForm'>
         <h3 className='font-bold md:text-2xl'>Login</h3>
         <fieldset className='signinFieldset'>
@@ -20,8 +16,5 @@ export default function Login() {
             <a href="#" >Sign Up</a>
         </div>
       </form>
-
-      <SigninRightSection/>
-    </div>
   )
 }
