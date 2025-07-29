@@ -2,7 +2,7 @@ import React from 'react'
 import {Navigate, Outlet} from 'react-router-dom'
 
 export default function ProtectedLayout() {
-    const token=false;
+    const token=true;
     
     
     console.log('protected route rendered',  window.location.pathname);

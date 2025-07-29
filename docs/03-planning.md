@@ -10,7 +10,7 @@ and are planned to work on them accordingly.
 5. Follow System
 
 ## Scheduling the work
-*This is only an estimation of time required, actual schedule may be up and down*
+*This is only an estimation of time required, actual schedule may vary*
 
 1. Week 1 - Analysis and Design
    - Design UML diagrams (usecase, DFD, Activity and Sequence)
@@ -22,4 +22,4 @@ and are planned to work on them accordingly.
 4. Week 4 - Implementation of Follow System and other leftovers
 5. Week 5 - System testing, Polishing and Deployment
 
-> Unit testing will be done after every module development (or lets say after every phase).
+> Unit testing will be done after every module development (or after every phase).
