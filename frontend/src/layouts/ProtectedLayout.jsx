@@ -6,6 +6,6 @@ export default function ProtectedLayout() {
     
     
     console.log('protected route rendered',  window.location.pathname);
-  // return token?<Outlet/>:<Navigate to='/auth/login' replace/>
-  return token ?<Outlet/>:<p>Hello</p>
+  return token?<Outlet/>:<Navigate to='/auth' replace/>
+  // return token ?<Outlet/>:<p>Hello</p>
 }
