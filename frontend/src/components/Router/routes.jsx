@@ -1,4 +1,3 @@
-import App from "../../App";
 import AuthLayout from "../../layouts/AuthLayout";
 import HomePageLayout from "../../layouts/HomePageLayout";
 import MainLayout from "../../layouts/MainLayout";

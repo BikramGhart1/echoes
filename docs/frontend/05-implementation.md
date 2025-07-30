@@ -13,4 +13,19 @@ How routes and url pathnames are designed.
 - **EsLint** v9.30.1
 - **Prettier** (Code formatter) 
 
-# 3. Project Structure
+# 3. Project folder Structure
+Tree Diagram of frontend directory
+
+frontend/
+├── public/
+|
+├── src/
+|    ├── components/
+|    |   ├── router/
+|    |   ├── partials/
+|    |   └── Sign_in/
+|    ├── contexts/
+|    ├── layouts/
+|    ├── pages/
+|    
+     
