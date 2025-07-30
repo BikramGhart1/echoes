@@ -1,6 +1,6 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import routes from './components/router/routes.jsx'
+import routes from './router/routes.jsx'
 
 
 function App() {

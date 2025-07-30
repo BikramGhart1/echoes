@@ -1,12 +1,13 @@
-import AuthLayout from "../../layouts/AuthLayout";
-import HomePageLayout from "../../layouts/HomePageLayout";
-import MainLayout from "../../layouts/MainLayout";
-import ProtectedLayout from "../../layouts/ProtectedLayout";
-import CreatePost from "../../pages/CreatePost";
-import Login from "../../pages/Login";
-import Profilepage from "../../pages/Profilepage";
-import Signup from "../../pages/Signup";
-import ViewPost from "../../pages/ViewPost";
+import HamMenuProvider from "../contexts/HamMenuContextProvider";
+import AuthLayout from "../layouts/AuthLayout";
+import HomePageLayout from "../layouts/HomePageLayout";
+import MainLayout from "../layouts/MainLayout";
+import ProtectedLayout from "../layouts/ProtectedLayout";
+import CreatePost from "../pages/CreatePost";
+import Login from "../pages/Login";
+import Profilepage from "../pages/Profilepage";
+import Signup from "../pages/Signup";
+import ViewPost from "../pages/ViewPost";
 
 const routes=[
     {
@@ -14,7 +15,7 @@ const routes=[
       element:<ProtectedLayout/>,
       children:[
         {
-          element:<MainLayout/>,
+          element:<HamMenuProvider><MainLayout/></HamMenuProvider> ,
           children:[
               {index:true, element:<HomePageLayout/>},
               {path:'profile', element:<Profilepage/>},
