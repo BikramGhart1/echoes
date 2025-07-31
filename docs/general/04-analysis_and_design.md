@@ -11,25 +11,25 @@ Data Flow Diagram level 0 and 1 describe how data will flow and how different
 processes will handle different modules.
 
  #### Context Diagram
- ![Context_Diagram](./diagrams/UML/context%20diagram.png)
+ ![Context_Diagram](../diagrams/UML/context%20diagram.png)
 
  This describes overall system in abstract level.
 
  #### Level 0
- ![level_0](./diagrams/UML/dfd%20lvl%200%20revised.png)
+ ![level_0](../diagrams/UML/dfd%20lvl%200%20revised.png)
 
  This diagram has defined all the processes and entities here.
 
  #### level 1
- ![level_1_1](./diagrams/UML/dfd%20lvl%201%20revised%201.png)
+ ![level_1_1](../diagrams/UML/dfd%20lvl%201%20revised%201.png)
 
  This diagram describes the account registration and login modules
 
- ![level_1_2](./diagrams/UML/dfd%20lvl%201%20revised%202.png)
+ ![level_1_2](../diagrams/UML/dfd%20lvl%201%20revised%202.png)
 
  This diagram describes the post management module
 
- ![level_1_3](./diagrams/UML/dfd%20lvl%201%20revised%203.drawio%20(1).png)
+ ![level_1_3](../diagrams/UML/dfd%20lvl%201%20revised%203.drawio%20(1).png)
 
  This diagram describes the profile management module
 
@@ -37,7 +37,7 @@ processes will handle different modules.
 This sequence diagram decribes how login module works to provide authentication token
 and how token can be used to access protected routes.
 
-![sequence_diagram](./diagrams/UML/sequence%20diagram%20for%20auth.drawio%20(1).png)
+![sequence_diagram](../diagrams/UML/sequence%20diagram%20for%20auth.drawio%20(1).png)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -57,59 +57,59 @@ and how token can be used to access protected routes.
 ### Screenshots of figma designed pages 
 
 #### Overview
-![overview](./diagrams/figma/Screenshot%202025-06-30%20213919.png)
+![overview](../diagrams/figma/Screenshot%202025-06-30%20213919.png)
 
 #### Logo 
-![logo](./diagrams/figma/final%20logo.png)
+![logo](../diagrams/figma/final%20logo.png)
 
 1. Signup page 
 
-   ![signuppage](./diagrams/figma/Signup%20wireframe%20(1).png)
+   ![signuppage](../diagrams/figma/Signup%20wireframe%20(1).png)
 
-   ![signuppage-phone](./diagrams/figma/signup%20wireframe%20-%20phone.png)
+   ![signuppage-phone](../diagrams/figma/signup%20wireframe%20-%20phone.png)
 
 2. Login page
 
-   ![loginpage](./diagrams/figma/login%20wireframe.png)
+   ![loginpage](../diagrams/figma/login%20wireframe.png)
 
-   ![loginpage-phone](./diagrams/figma/login%20wireframe%20-%20phone.png)
+   ![loginpage-phone](../diagrams/figma/login%20wireframe%20-%20phone.png)
 
 3. Home page
    
-   ![hoempage](./diagrams/figma/homepage%20wireframe.png)
+   ![hoempage](../diagrams/figma/homepage%20wireframe.png)
 
-   ![homepage-phone](./diagrams/figma/home%20page%20-%20phone.png)
+   ![homepage-phone](../diagrams/figma/home%20page%20-%20phone.png)
 
-   ![homepage-phone-sidebar](./diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
+   ![homepage-phone-sidebar](../diagrams/figma/home%20page%20with%20sidebar%20-%20phone.png)
 
 4. Specific Post page
 
-   ![specific-post](./diagrams/figma/specific%20post%20page.png)
+   ![specific-post](../diagrams/figma/specific%20post%20page.png)
 
 5. create post page
 
-   ![create-post](./diagrams/figma/create%20post.png)
+   ![create-post](../diagrams/figma/create%20post.png)
 
 6. Profile page
 
    > Profile page with posts 
-   ![profile-page](./diagrams/figma/Screenshot%202025-06-30%20213558.png)     
+   ![profile-page](../diagrams/figma/Screenshot%202025-06-30%20213558.png)     
 
    > Profile page with comments
-   ![profile-page-comments](./diagrams/figma/profile%20page%20with%20comments%20(1).png)
+   ![profile-page-comments](../diagrams/figma/profile%20page%20with%20comments%20(1).png)
 
    > profile page with posts scrolled up
-   ![profile-page-posts-up](./diagrams/figma/profile%20page%20with%20posts.png)
+   ![profile-page-posts-up](../diagrams/figma/profile%20page%20with%20posts.png)
 
    > Profile posts
-   ![posts-in-profile](./diagrams/figma/posts%20user%20profile.png)
+   ![posts-in-profile](../diagrams/figma/posts%20user%20profile.png)
 
    > Followee lists in profile
-   ![followee-lists](./diagrams/figma/user%20profile%20followee%20page.png)
+   ![followee-lists](../diagrams/figma/user%20profile%20followee%20page.png)
 
 7. Edit Profile
 
-   ![edit-profile](./diagrams/figma/Edit%20profile.png)
+   ![edit-profile](../diagrams/figma/Edit%20profile.png)
 
 -------------------------------------------------------------------------------------------------------------------------
 

@@ -43,7 +43,7 @@ Describes what services the system provides — features, behavior, and workflow
 - Users receive notifications when followed, or when someone likes/comments on their posts.
 
 ### Representation of functional requirements in usecase diagram
-![usecasediagram](./diagrams/UML/usecase%20Diagram.png)
+![usecasediagram](../diagrams/UML/usecase%20Diagram.png)
 
 ## Future scability features
 - Repost System
