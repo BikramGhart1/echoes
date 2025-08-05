@@ -1,3 +1,7 @@
+import UserCommentsList from "../components/partials/UserCommentsList";
+import UserLikedList from "../components/partials/UserLikedList";
+import UserPostsList from "../components/partials/UserPostsList";
+import UserSavedList from "../components/partials/UserSavedList";
 import HamMenuProvider from "../contexts/HamMenuContextProvider";
 import AuthLayout from "../layouts/AuthLayout";
 import HomePageLayout from "../layouts/HomePageLayout";
@@ -18,7 +22,16 @@ const routes=[
           element:<HamMenuProvider><MainLayout/></HamMenuProvider> ,
           children:[
               {index:true, element:<HomePageLayout/>},
-              {path:'profile', element:<Profilepage/>},
+              {
+                path:'profile', 
+                element:<Profilepage/>,
+                children:[
+                  {index:true, element:<UserPostsList/>},
+                  {path:'saved', element:<UserSavedList/>},
+                  {path:'comments', element:<UserCommentsList/>},
+                  {path:'liked', element:<UserLikedList/>},
+                ]
+              },
               {path:'post', element:<ViewPost/>},
               {path:'create-post',element:<CreatePost/>}
           ]

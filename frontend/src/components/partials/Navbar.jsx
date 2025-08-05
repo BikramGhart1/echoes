@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useHamMenu } from '../../contexts/HamMenuContextProvider';
+import {Link} from 'react-router-dom';
 
 const SearchBar=()=>{
     const [searchValue,setSearchValue]=useState(null);
@@ -37,14 +38,14 @@ export default function Navbar() {
         <div className='navSection'>
           <h2 className='navSectionHeader'>General Navigation</h2>
           <div className='navSectionContainer'>
-              <button className='navButton'>
+              <Link to='/' className='navButton'>
                   <i className="fa-solid fa-house"></i>
                   <p>Home</p>
-              </button>
-              <button className='navButton'>
+              </Link>
+              <Link to='/create-post' className='navButton'>
                   <i className="fa-solid fa-square-plus text-orange-600"></i>
                   <p>Create Post</p>
-              </button>
+              </Link>
               <button className='navButton'>
                   <i className="fa-solid fa-bell relative p-1">
                   <div className='absolute bg-red-400 w-2 h-2 rounded-2xl top-0 right-0'></div>
@@ -57,22 +58,18 @@ export default function Navbar() {
         <div className='navSection'>
           <h2 className='navSectionHeader'>Profile Navigation</h2>
           <div className='navSectionContainer'>
-            <button className='navButton'>
+            <Link to='/profile' className='navButton'>
               <div className="w-6 h-6 bg-gray-400 rounded-2xl"></div>
               <p>Profile</p>
-            </button>
-            <button className='navButton'>
+            </Link>
+            <Link to='/profile/saved' className='navButton'>
               <i className="fas fa-bookmark w-4"></i>
               <p>Saved</p>
-            </button>
-            <button className='navButton'>
+            </Link>
+            <Link to='/profile/comments' className='navButton'>
                  <i className="far fa-comment "></i>
               <p className=''>Comments</p>
-            </button>
-            <button className='navButton'>
-              <i className="fa-solid fa-pen-to-square"></i>
-              <p className=''>Edit Profile</p>
-            </button>
+            </Link>
           </div>
         </div>
 

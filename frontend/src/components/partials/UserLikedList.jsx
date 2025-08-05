@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function UserSavedList() {
+export default function UserLikedList() {
   return (
     <div>
-      <p>Saved</p>
+      <p>Liked</p>
     </div>
   )
 }
