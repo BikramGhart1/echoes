@@ -15,7 +15,7 @@ How routes and url pathnames are designed.
 
 # 3. Project folder Structure
 Tree Diagram of frontend directory
-
+```
 frontend/
 ├── public/
 |
@@ -30,7 +30,7 @@ frontend/
 |
 |
 ├── App.jsx
-└── Main.jsx      
+└── Main.jsx  ```    
 
 # 4. Layout design
 There are 4 layouts that define the structure of all the pages and how they will appear.
